@@ -1,0 +1,1695 @@
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:480px ){
+  * {
+    max-width: 480px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container{
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media screen and ( max-width:480px ){
+  header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    padding: 15px 15px 15px 2px;
+  }
+  
+  header img{
+    width: 80px;
+    height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .header2-p{
+    font-size: 12px;
+    letter-spacing: normal;
+    position: absolute;
+    bottom: 50px;
+  }
+
+  .header3{
+    width: 80px;
+    height: 72px;
+    background-color: #D86C67;
+    text-align: center;
+    border-radius: 0px;
+    position: relative;
+    left: 18px;
+    bottom: 18px;
+  }
+
+  .res-img img{
+    display: block;
+    width: 30px;
+    height: 36px;
+    position: relative;
+    left: 360px;
+    bottom: 80px;
+  }
+
+  .header3 a{
+    color: #ffffff;
+    font-size: 0px;
+  }
+
+  .header3 a:before{
+    font-size: 12px; content: "資料請求";
+    position: relative;
+    top: 36px;
+  }
+  
+  .header3:hover{
+    background-color: #D84948;
+  }
+
+/* block1 */
+
+.isaratop{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/main.jpg);
+  width: 100%;
+  height: 340px;
+  -moz-background-size:100% 100%;
+background-size:100% 100%;
+}
+
+.isaratop img{
+  width: 310px;
+  height: 110px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+
+.isaratop h2{
+  margin-top: 30px;
+  margin-right: 60px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.isaratop h3{
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-right: 60px;
+}
+
+.block1{
+  background-color: #ebb94c;
+  background-size: cover;
+  color: #ffffff;
+  height: 480px;
+  width: 100%;
+}
+
+.block1-p1 p{
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin-right: 60px;
+}
+
+.block1-p2 p{
+  background-color: #ffffff;
+  color: #C7354E;
+  border-radius: 3px;
+  font-size: 90%;
+  width: 380px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-right: 80px;
+}
+
+.btn{
+  width: 340px;
+  height: 80px;
+  border: 1px solid #D86C67;
+  background-color: #D86C67;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+
+.btn a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  display: block;
+  height: 100%;
+  line-height: 80px;
+}
+
+.btn:hover{
+  background-color: #D84948;
+}
+
+.block1-p3 p{
+  color: #ffffff;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+
+.block1-p3 br{
+  display: block;
+}
+
+.sns{
+  display: flex;
+  margin-top: 15px;
+}
+
+.sns1{
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-left: 20%;
+}
+
+/* block2 */
+
+.block2{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.br::before{
+  content: "\A";
+  white-space: pre;
+}
+
+.block2-text{
+  position: relative;
+}
+
+.block2-text h2{
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-right: 68px;
+  padding-top: 30px;
+}
+
+.block2-text::before,.block2-text::after{
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.block2-text::before{
+  border-top: 4px solid #eab857;
+  border-left: 4px solid #eab857;
+  top: 20px;
+  left: 20px;
+}
+
+.block2-text::after{
+  border-bottom: 4px solid #eab857;
+  border-right: 4px solid #eab857;
+  bottom: 370px;
+  right: 80px;
+}
+
+.textp {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+
+.textp2{
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+
+.textp3{
+  margin-right: 60px;
+}
+
+.underline{
+  background: linear-gradient(transparent 60%,#EAB857);
+  font-weight: 600;
+}
+
+.about-btn{
+  background-color: #EAB857;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -740px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 9;
+}
+
+.about-btn p{
+  color: #ffffff;
+  line-height: 80px;
+}
+
+/* block3 */
+.block3{
+  background-color: #FEF5E0;
+  background-size: cover;
+  height: 630px;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.br::before{
+  content: "\A";
+  white-space: pre;
+}
+
+.block3-text{
+  position: relative;
+}
+
+.block3-text::before,.block3-text::after{
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.block3-text::before{
+  border-top: 4px solid #eab857;
+  border-left: 4px solid #eab857;
+  top: -40px;
+  left: 40px;
+}
+
+.block3-text::after{
+  border-bottom: 4px solid #eab857;
+  border-right: 4px solid #eab857;
+  bottom: 380px;
+  right: 80px;
+}
+
+.block3-text h2{
+  font-weight: 600;
+  margin-right: 60px;
+}
+
+.textp0{
+  padding-top: 20px;
+  margin-right: 60px;
+}
+
+.block3-textp{
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+}
+
+.aboutbox{
+  margin: 30px;
+  padding: 30px;
+  border: 2px solid #EAB857;
+  border-radius: 3px;
+  background-color: #ffffff;
+  height: 300px;
+  margin-right: 100px;
+}
+
+.picturebox{
+  text-align: center;
+  width: 155px;
+  height: 135px;
+}
+
+.picturebox p{
+  font-size: 12px;
+  font-weight: 200;
+  padding-top: 0px;
+}
+
+/* block4 */
+
+.block4{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg);
+  background-size:  cover;
+  background-position: center;
+  width: 100%;
+  height: 800px;
+}
+
+.block4-text br{
+  display: block;
+}
+
+.block4-text h2{
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  margin-right: 60px;
+}
+
+.block4 h3{
+  color: #ffffff;
+  padding-bottom: 30px;
+  font-weight: 200;
+  font-size: 12px;
+  margin-right: 60px;
+}
+
+.text-color{
+  color: #EBB94D;
+}
+
+.step-box{
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 3px;
+  width: 350px;
+  height: 160px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-right: 100px;
+}
+
+.back-p {
+  color: #ffffff;
+  background-color: #EBB94D;
+  width: 290px;
+  height: 25px;
+  border-radius: 4px;
+  margin:30px auto 30px auto;
+}
+
+.first-p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.second-p{
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.back-color{
+  background-color: #016EAA;
+  width: 100%;
+  height: 130px;
+}
+
+.back-color p{
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+
+/* block5 */
+
+.block5-text h2{
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-right: 60px;
+}
+
+.block5-text br{
+  display: block;
+}
+
+.block5-text p{
+  font-weight: 200;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  margin-right: 60px;
+}
+
+.small{
+  font-size: 12px;
+}
+
+.marubtn-color{
+  display: flex;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.marubtn img{
+  width: 80px;
+  height: 80px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.lasttext{
+  margin-top: 30px;
+}
+
+/* block6 */
+
+.d{
+  display: block;
+}
+
+.image-colorp img{
+  height: 120px;
+  width: 3000px;
+}
+
+.block6-text{
+  position: relative;
+}
+
+.block6-text br{
+  display: block;
+}
+
+.block6-text::before,.block6-text::after{
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.block6-text::before{
+  border-top: 4px solid #eab857;
+  border-left: 4px solid #eab857;
+  top: -20px;
+  left: 40px;
+}
+
+.block6-text::after{
+  border-bottom: 4px solid #eab857;
+  border-right: 4px solid #eab857;
+  bottom: -20px;
+  right: 90px;
+}
+
+.block6{
+  background-color: #FEF5E0;
+  height: 1300px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.block6-text h4{
+  color: #333333;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+.block6-text h2{
+  font-weight: 500;
+  margin-right: 60px;
+}
+
+.image-colorp h3{
+  font-size: 16px;
+  font-weight: 200;
+  margin-right: 60px;
+}
+
+.image-colorp img{
+  margin-top: 20px;
+}
+
+.image-colorp p{
+  font-weight: 100;
+  font-size: 14px;
+  margin: 10px 40px;
+  text-align: left;
+}
+
+.image-colorp li{
+  display: inline-block;
+}
+  
+.width{
+  display: none;
+}
+
+.width2{
+  display: none;
+}
+
+.width3{
+  display: none;
+}
+
+.orenge-box{
+  position: relative;
+  bottom: 0px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 80px;
+  padding: 30px;
+  border: 2px solid #EAB857;
+  border-radius: 3px;
+  background-color: #ffffff;
+  height: 245px;
+}
+
+.orenge-box h1{
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.orenge-box h5{
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.orenge-box p{
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.blo6-p{
+  position: relative;
+  bottom: -20px;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+/* block7 */
+.whitep br{
+  display:  block;
+}
+
+.block7{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/teacherbgsp.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 1980px;
+  width: 100%;
+}
+
+.icon-top{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 80px;
+  left: 160px;
+}
+
+.icon-top i{
+  color: #ffffff;
+}
+
+.icon-top h2{
+  color: #ffffff;
+}
+
+.whitep{
+  color: #ffffff;
+  padding-top: 110px;
+  padding-bottom: 20px;
+}
+
+.white-box p{
+  color: #ffffff;
+}
+
+.white-box1 p{
+  font-size: 13px;
+}
+
+.white-box1{
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 80px;
+  padding: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  height: 226px;
+}
+
+.white-box2{
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 80px;
+  padding: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  height: 245px;
+
+}
+
+.white-box3{
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 80px;
+  padding: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  height: 245px;
+}
+
+.white-box4{
+  margin-top: 200px;
+  margin-left: 20px;
+  margin-right: 80px;
+  padding: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  height: 245px;
+}
+
+.picture-btn img{
+  border-radius: 50%;
+  position: relative;
+  bottom: 1670px;
+  margin-bottom: 280px;
+  width: 140px;
+  height: 140px;
+}
+
+.zisage{
+  font-weight: 200;
+  margin-top: 0px;
+}
+
+/* block8 */
+
+.block8{
+  background-color: #eab857;
+  width: 100%;
+  height: 270px;
+}
+
+.qa-btn{
+  position: relative;
+  top: 30px;
+  left: 170px;
+}
+
+.qa-btn h3{
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding-top: 30px;
+  padding-left: 14px;
+}
+
+.block8-text .bbbb{
+  color: #ffffff;
+  letter-spacing: 2px;
+  padding-top: 60px;
+  padding-left: 40px;
+}
+
+.block8-text{
+  position: relative;
+}
+
+.block8-text::before,.block8-text::after{
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.block8-text::before{
+  border-top: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
+  top: 100px;
+  left: 20px;
+}
+
+.block8-text::after{
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+  bottom: -40px;
+  right: 20px;
+}
+
+.undertry{
+  width: 50px;
+  height: 50px;
+  border-top: solid 50px #eab857;
+  border-left: solid 50px transparent;
+  border-bottom: solid 50px transparent;
+  border-right: solid 50px transparent;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+}
+
+/* block9 */
+.block9-text br{
+  display: block;
+}
+
+.block9{
+  width: 100%;
+  height: 820px;
+}
+
+.wakugumi-text1{
+  height: 180px;
+}
+
+.wakugumi-text2{
+  height: 180px;
+}
+
+.wakugumi-text3{
+  height: 180px;
+}
+
+.wakugumi-text1 img{
+  width: 140px;
+  height: 140px;
+}
+
+.wakugumi-text2 img{
+  width: 140px;
+  height: 140px;
+}
+
+.wakugumi-text3 img{
+  width: 140px;
+  height: 140px;
+}
+
+.block9-text h2{
+  padding-top: 50px;
+}
+
+.block9-text h4{
+  margin-top: 10px;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.block9-text p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.wakugumi-text1 img{
+  border: 4px solid #EAB857;
+  border-radius: 3px;
+}
+
+.wakugumi-text2 img{
+  border: 4px solid #EAB857;
+  border-radius: 3px;
+}
+
+.wakugumi-text3 img{
+  border: 4px solid #EAB857;
+  border-radius: 3px;
+}
+
+.wakugumi-text1 img{
+  margin-left: 20px;
+  display: flex;
+}
+
+.wakugumi-text2 img{
+  display: flex;
+  margin-left: 20px;
+}
+
+.wakugumi-text3 img{
+  margin-left: 20px;
+  display: flex;
+}
+
+.wakugumi-text1 p{
+  width: 220px;
+  text-align: left;
+  font-size: 12px;
+  position: relative;
+  bottom: 140px;
+  left: 180px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.wakugumi-text2 p{
+  width: 220px;
+  text-align: left;
+  font-size: 12px;
+  position: relative;
+  bottom: 140px;
+  left: 180px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.wakugumi-text3 p{
+  width: 220px;
+  text-align: left;
+  font-size: 12px;
+  position: relative;
+  bottom: 140px;
+  left: 180px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.underline-text{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 260px;
+  border-bottom: 2px solid #333333;
+}
+
+.underline-text2{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 260px;
+  border-bottom: 2px solid #333333;
+}
+
+.underline-text3{
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 260px;
+  border-bottom: 2px solid #333333;
+}
+
+/* block10 */
+
+.block10{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/classbgsp.jpg);
+  background-position:left;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+.block10-text h2{
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin-right: 60px;
+}
+
+.block10-text h4{
+  color: #ffffff;
+  padding-bottom: 40px;
+  margin-right: 60px;
+}
+
+.table1 table{
+  width: 380px;
+  height: 480px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  background-color: #016daa;
+  margin-right: 80px;
+}
+
+.table2 table{
+  width:380px;
+  height: 320px;
+}
+
+.table1 th{
+  color: #ffffff;
+}
+
+.table2 td{
+  background-color: #ffffff;
+}
+
+.back-blue{
+  background-color: #016daa;
+  width: 100%;
+  height: 130px;
+}
+
+.back-blue p{
+  color: #ffffff;
+  padding-top: 50px;
+}
+
+/* block11 */
+
+.block11{
+  width: 100%;
+  height: 500px;
+}
+
+.block11-top{
+  margin: 20px 60px 0px 0px;
+}
+
+.block11-top h1{
+  display: inline-block;
+  font-size: 22px;
+}
+
+.block11 img{
+  width: 0;
+}
+
+.img-box-text1{
+  background-color: #fef5e0;
+  width: 380px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 80px;
+  margin-bottom: 6px;
+}
+
+.img-box-text1 img{
+  width: 120px;
+  height: 80px;
+  position: relative;
+  top: 10px;
+  right: 150px;
+}
+
+.img-box-text1 br{
+  display: none;
+}
+
+.img-box-text1 h2{
+  position: relative;
+  top: -66px;
+  right: 0px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.img-box-text1 h5{
+  display: none;
+  position: relative;
+  bottom: 140px;
+  left: 240px;
+  text-align: left;
+}
+
+.img-box-text1 p{
+  display: none;
+  text-align: left;
+  width: 550px;
+  font-weight: 100;
+  font-size: 12px;
+  position: relative;
+  bottom: 120px;
+  left: 240px;
+  color: #333333;
+}
+
+.img-box-text2{
+  background-color: #fef5e0;
+  width: 380px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 80px;
+  margin-bottom: 6px;
+}
+
+.img-box-text2 img{
+  width: 120px;
+  height: 80px;
+  position: relative;
+  top: 10px;
+  right: 150px;
+}
+
+.img-box-text2 h2{
+  position: relative;
+  top: -66px;
+  right: 36px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.img-box-text2 h5{
+  display: none;
+  position: relative;
+  bottom: 120px;
+  left: 240px;
+  text-align: left;
+}
+
+.img-box-text2 p{
+  display: none;
+  text-align: left;
+  width: 550px;
+  font-weight: 100;
+  font-size: 12px;
+  position: relative;
+  bottom: 100px;
+  left: 240px;
+  color: #333333;
+}
+
+.img-box-text3{
+  background-color: #fef5e0;
+  width: 380px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 80px;
+  margin-bottom: 6px;
+}
+
+.img-box-text3 img{
+  width: 120px;
+  height: 80px;
+  position: relative;
+  top: 10px;
+  right: 150px;
+}
+
+.img-box-text3 h2{
+  position: relative;
+  top: -66px;
+  right: 58px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.img-box-text3 h5{
+  display: none;
+  position: relative;
+  bottom: 120px;
+  left: 240px;
+  text-align: left;
+}
+
+.img-box-text4 br{
+  display: none;
+}
+
+.img-box-text4{
+  background-color: #fef5e0;
+  width: 380px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 80px;
+  margin-bottom: 6px;
+}
+
+.img-box-text4 img{
+  width: 120px;
+  height: 80px;
+  position: relative;
+  top: 10px;
+  right: 150px;
+}
+
+.img-box-text4 h2{
+  position: relative;
+  top: -66px;
+  right: 18px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.img-box-text4 h5{
+  display: none;
+  position: relative;
+  bottom: 140px;
+  left: 240px;
+  text-align: left;
+}
+
+.img-box-text4 p{
+  display: none;
+  text-align: left;
+  width: 550px;
+  font-weight: 100;
+  font-size: 12px;
+  position: relative;
+  bottom: 130px;
+  left: 240px;
+  color: #333333;
+}
+
+.img-box-text5 br{
+  display: none;
+}
+
+.img-box-text5{
+  background-color: #fef5e0;
+  width: 380px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 80px;
+  margin-bottom: 6px;
+}
+
+.img-box-text5 img{
+  width: 120px;
+  height: 80px;
+  position: relative;
+  top: 10px;
+  right: 150px;
+}
+
+.img-box-text5 h2{
+  position: relative;
+  top: -66px;
+  right: -34px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.img-box-text5 h5{
+  display: none;
+  position: relative;
+  bottom: 150px;
+  left: 240px;
+  text-align: left;
+}
+
+/* block12 */
+
+.block12{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/bangkokbg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 480px;
+}
+
+.block12-text h1{
+  color: #ffffff;
+  text-align: left;
+  margin-left: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.block12-text p{
+  color: #ffffff;
+  text-align: left;
+  margin-left: 40px;
+  padding-bottom: 20px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.block12-text li{
+  color: #ffffff;
+  text-align: left;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.block12-text br{
+  display: block;
+}
+
+.block12-text h6{
+  color: #ffffff;
+  text-align: left;
+  margin-left: 40px;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+/* block13 */
+
+.de{
+  display: block;
+  width: 300px;
+  font-size: 14px;
+  margin-left: 80px;
+  margin-top: -50px;
+}
+
+.block13-text br{
+  display: block;
+}
+
+.block13{
+  background-color: #f7c33d;
+  width: 100%;
+  height: 780px;
+}
+
+.block13-text h1{
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-right: 60px;
+}
+
+.block13-text p{
+  color: #333333;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+}
+
+.colorwh{
+  color: #ffffff;
+}
+
+.colortext-waku{
+  border: 2px solid #ffffff;
+  margin-left: 50px;
+  margin-right: 50px;
+  position: relative;
+  left: -30px;
+}
+
+.top-textwaku h2{
+  font-size: 16px;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+  width: 300px;
+  height: 70px;
+  background-color: #f7c33d;
+}
+
+.tokuten1{
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin: 30px auto;
+  position: relative;
+  left: -120px;
+  top: -20px;
+}
+
+.tokuten2{
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 30px auto;
+  position: relative;
+  left: -120px;
+  top: -20px;
+}
+
+.tokuten3{
+  background-color: #ffffff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 30px auto;
+  position: relative;
+  left: -120px;
+  top: -20px;
+}
+
+.tokuten1 h4{
+  color: #ffffff;
+}
+
+.tokuten2 h4{
+  color: #ffffff;
+}
+
+.tokuten3 h4{
+  color: #ffffff;
+}
+
+.tokuten1 p{
+  display: none;
+  color: #333333;
+  margin-left: 10%;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.tokuten2 p{
+  display: none;
+  color: #333333;
+  margin-left: 10%;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.tokuten3 p{
+  display: none;
+  color: #333333;
+  margin-left: 10%;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.orenge{
+  color: #EBB94D;
+}
+
+.tokuten1 h3{
+  font-size: 26px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+
+.tokuten2 h3{
+  font-size: 26px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+
+.tokuten3 h3{
+  font-size: 26px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+
+/* block14 */
+
+.block14{
+  background-image: url(https://isara.life/wp-content/themes/isara_v2/img/specialdetailsp.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 470px;
+}
+
+.block14-text h1{
+  color: #ffffff;
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-right: 60px;
+}
+
+.block14-text h3{
+  color: #ffffff;
+  font-size: 12px;
+  padding-bottom: 20px;
+  margin-right: 60px;
+}
+
+.block14-text h2{
+  color: #ffffff;
+  margin-right: 60px;
+}
+
+.block14-text p{
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  font-size: 12px;
+  margin-right: 60px;
+}
+
+.block14-text{
+  position: relative;
+}
+
+.block14-text::before,.block14-text::after{
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.block14-text::before{
+  border-top: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
+  top: 220px;
+  left: 40px;
+}
+
+.block14-text::after{
+  border-bottom: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+  bottom: 140px;
+  right: 80px;
+}
+
+/* block15 */
+
+.bre{
+  display: block;
+}
+
+.block15{
+  width: 100%;
+  height: 800px;
+}
+
+.block15-text img{
+  width: 100%;
+  height: 300px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.block15-text h1{
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin-right: 60px;
+}
+
+.block15-text h2{
+  font-size: 16px;
+  padding-bottom: 50px;
+  margin-right: 60px;
+}
+
+.block15-text p{
+  text-align: left;
+  font-weight: 200;
+  padding-left: 30px;
+  font-size: 10px;
+}
+
+/* block16 */
+
+.block16{
+  background-color: #EBB94D;
+  width: 100%;
+  height: 700px;
+}
+
+.block16 h1{
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.block16 p{
+  padding-bottom: 30px;
+  font-weight: 300;
+}
+
+input[type="text"] {
+  width: 650px;
+  height: 60px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+input[type="mail"] {
+  width: 650px;
+  height: 60px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+textarea[name="question"] {
+  width: 650px;
+  height: 100px;
+  margin-bottom: 40px;
+  border-radius: 6px;
+  border-color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+input[type="submit"] {
+  width: 650px;
+  height: 60px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  border-color: #da6a63;
+  background-color: #da6a63;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+/* block17 */
+
+.block17{
+  width: 100%;
+  height: 1150px;
+}
+
+.block17-text h1{
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 26px;
+}
+
+/* accordion */
+
+.accordion-container h4{
+  position: relative;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  outline: 0;
+  text-align: left;
+}
+
+.accordion-content {
+  position: relative;
+  left: 5px;
+  width: 100%;
+  border: 1px solid #fefefe;
+  border-top: none;
+  outline: 0;
+  text-align: left;
+}
+
+.accordion-content p{
+  font-size: 14px;
+}
+
+.accordion-container .article-title {
+  display: block;
+  position: relative;
+  margin: 5px;
+  padding: 1em 0.625em 1em 1em;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.article-title{
+  position: relative;
+  text-decoration: none;
+}
+
+.article-title:hover{
+  text-decoration: underline;
+}
+
+.article-title:after {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 38%;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: solid 2px #e5e5e5;
+  border-right: solid 2px #e5e5e5;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.article-title.open:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 45%;
+}
+
+.accordion-content {
+  display: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 800px;
+  height: 90px;
+}
+
+.accordion-content p{
+  margin-top: 20px;
+  letter-spacing: 1.5px;
+}
+
+.accordion-container {
+  width: 800px;
+  margin: 1.875em auto;
+}
+
+.accordion-container i{
+  color: #016eaa;
+}
+
+
+
+/* block18 */
+
+.block18{
+  background-color: #ececec;
+  width: 100%;
+  height: 200px;
+}
+
+.block18-text p{
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+.blue-text{
+  color: #3b7cb9;
+  text-decoration: none;
+}
+
+.blue-text:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+}
